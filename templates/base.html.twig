@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel= "stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
+		{% block stylesheets %}
+		{% endblock %}
+		
+        
+    </head>
+    <body>
+        
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">ctf</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="/ctf">Formulaire !
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/ctf/page1">Exercice 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/ctf/page2">Exercice 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/ctf/page3">Exercice 3</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="/ctf/page4">Exercice 4</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="/ctf/page5">Exercice 5</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="/ctf/page6">Exercice 6</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="/ctf/page7">Exercice 7</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="/ctf/page8">Exercice 8</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="/ctf/page9">Exercice 9</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="/ctf/page10">Exercice 10</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="/ctf/page11">Informations !</a>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">On recommence</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/ctf/page1">Action</a>
+            <a class="dropdown-item" href="/ctf/page2">Another action</a>
+            <a class="dropdown-item" href="/ctf/page3">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/ctf">Separated link</a>
+			
+          </div>
+        </li>
+		<Div Align=right>
+		<a class="nav-item">
+      <a href="https://www.google.fr/" title="Tu galères ?">
+	<img alt="texte alternatif pour le lien image" src="https://media2.giphy.com/media/DWUEBCadFCSc0/giphy.gif?cid=ecf05e470tged7llwylffakiqlkvihirkcs9jzg4q2nf5veq&rid=giphy.gif&ct=g" width="200" height="50"/>
+	</a></div>
+      </ul>
+	 
+	</Div>
+    </div>
+  </div>
+</nav>
+
+
+		
+
+
+<div class="container">
+	
+</div>
+
+	{% block body %}{% endblock %}
+			{% block javascripts %}{% endblock %}
+	</body>
+</html>
