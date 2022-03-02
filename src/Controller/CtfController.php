@@ -140,6 +140,16 @@ class CtfController extends AbstractController
 		]);
 	}
 	/**
+	 * @Route("/ctf/page12", name="page12")
+	 */
+	 public function page12() 
+	 {
+		 return $this->render('ctf/page12.html.twig',[
+			'title' => "page12",
+			'age' => 31
+		]);
+	}
+	/**
 	 * @Route("/ctf/traitement", name="traitement ")
 	 */
 	 public function traitement() 
